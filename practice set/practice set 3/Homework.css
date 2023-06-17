@@ -1,0 +1,35 @@
+h1{
+   font-display: black;
+   text-align:center;
+   text-transform:uppercase;
+}
+.traffic-light{
+    
+    height:200px;
+    width: 80px ;
+    background-color:black ;
+    /* border: 1px solid black; */
+
+    /* border-radius: 50%; */
+
+}
+.light{
+    height:50px;
+    width:50px;
+}
+.red{
+    /* height:2 */
+    background-color: red;
+    border-radius: 50%;
+    border:1px solid black;
+    
+}
+.yellow{
+    background-color: yellow;
+    border-radius: 50%;
+}
+.green{
+    background-color: green;
+    border-radius : 50%; 
+
+}

@@ -1,0 +1,13 @@
+#box1{
+    width: 400px;
+    height:400px;
+    background-color: aqua;
+    display:flex;
+    justify-content: center; /*horizontal align*/
+    align-items:center;/* vertical align*/
+}
+#box2{
+    width:100px;
+    height:100px;
+    background-color:blueviolet
+}

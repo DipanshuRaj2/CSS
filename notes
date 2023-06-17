@@ -1,0 +1,39 @@
+
+
+1.
+position CSS property sets how an element is positioned in a document.
+
+position: static/relative(realtive to itself)/absolute(relative to its parent or nearly position)/fixed(realtive to the browser window)
+
+in static = top,bottom ,right, left, z-index are not worked.
+
+2.
+Background-image:url(any name);
+background-size:cover(mostly used)/contain/auto.
+
+3.
+Flexbox(Flexible Box Layout)
+-It is one-dimensional layout method for arranging items in row or columns. 
+
+-The Flex Model
+it contains :flex container, flex item , cross axis(vertical , horizotal) and main axis(horizontal or vertical).
+display:flex;
+properties:
+a.flexbox Direction:
+It sets how flex items are placed in the flex container, along which axis and direction.
+it has 4 direction:
+ 1.row (default)2. row-reverse 3.column 4.column-reverse
+
+ how to use in the code ? flex-direction:row;
+
+b. for flex Container
+ . justify-content:flex-start/flex-end/centre/space-evenly
+ 
+c. for Flex item
+ . align-self:flex-end(along the cross axis [top-bottom]);
+ . flex-grow: 
+ . flex-shrink
+
+ Q. Which has higher priority: align-items or align-self ?
+   Ans: align-items is applicable on container and align self individual flex item pe apply hota hain. 
+  Align-self has higher priority 

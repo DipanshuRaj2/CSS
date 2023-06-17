@@ -1,0 +1,10 @@
+/*.heading{
+    color:red;
+}
+*/
+
+/* another way to */
+h1 , h2, h3{
+    color:red;
+}
+
