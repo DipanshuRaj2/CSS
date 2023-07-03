@@ -1,41 +1,41 @@
-body{
-   text-align:center;
+div {
+   height : 100px;
+   width: 100px;
+   background-color: aquamarine;
+   border: 2px solid black;
+
+   /* border-radius: 50px; */
+
+   position:relative;
+   top: 100px;
+   left: 100px;
+
+   /* animation-name : colorAnimate;
+   animation-duration: 2s;
+   animation-timing-function: ease-in; */
+   /* animation-delay:1s;
+   animation-iteration-count: infinite;
+   animation-direction:alternate; */
+   animation: colorAnimate 2s ease-in 1s infinite normal;
 }
-div{
-   height:100px;
-   width: 50px;
-   display:inline-block;
-   border:2px solid black;
+@keyframes colorAnimate {
+0% {
+   left: 0px;
+   background-color: yellow;
 }
-#container{
-   width :700px;
-   height:300px;
-   display:flex;
-   flex-direction: row;
-   justify-content: center;
-   /* flex-wrap:wrap; */
-   align-items: flex-start;
-   /* align-content:flex-start; */
+
+50%{
+   background-color:blue;
 }
-#box1{
-   background-color:aqua;
-   flex-grow:1;
+100% {
+   left: 400px;
+   background-color: red;
+   color:white
 }
-#box2{
-   background-color: pink;
-   height: 200px;
-   /* flex-shrink: 1; */
-   flex-grow: 2;
+
    
 }
-#box3{
-   background-color: darkkhaki;
-   height: 75px;
-}
-#box4{
-   background-color: indianred;
-}
-#box5{
-   background-color: slateblue;
+div:hover{
+
    
 }
